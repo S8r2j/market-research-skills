@@ -159,6 +159,21 @@ Stop after discovery and show me the problem list with sourcing quality.
 
 All artifacts land in a run folder: `market-run-<YYYYMMDD-HHMM>/`, containing the per-stage JSON files, per-problem PDFs, and `Master_Index.pdf`.
 
+### Sample outputs
+
+Real outputs from a full pipeline run are in [`output_sample/`](output_sample/):
+
+| Stage | Skill | Sample report |
+|---|---|---|
+| 0 — Master | market-research-orchestrator | [00_MASTER_Report.pdf](output_sample/00_MASTER_Report.pdf) |
+| 1 — Discovery | problem-discovery | [01_Discovery_Report.pdf](output_sample/01_Discovery_Report.pdf) |
+| 2 — Deep research | problem-deep-research | [02_Research_p03.pdf](output_sample/02_Research_p03.pdf) |
+| 3 — People evidence | problem-evidence-people | [03_People_p03.pdf](output_sample/03_People_p03.pdf) |
+| 4 — Competitors | competitor-analysis | [04_Competitors_p03.pdf](output_sample/04_Competitors_p03.pdf) |
+| 5 — Market sizing | market-sizing | [05_Market_p03.pdf](output_sample/05_Market_p03.pdf) |
+| 6 — Solution design | solution-design | [06_Solution_p03.pdf](output_sample/06_Solution_p03.pdf) |
+| — | All stages combined | [ALL_REPORTS_combined.pdf](output_sample/ALL_REPORTS_combined.pdf) |
+
 ---
 
 ## License
