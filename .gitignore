@@ -5,7 +5,6 @@ dist/
 
 # Run outputs
 market-run-*/
-*.pdf
 
 # OS / editor
 .DS_Store
